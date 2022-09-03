@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppNamoro.MainPage"
+             BackgroundImage="CASA.png"
+         >
+
+
+    <StackLayout  VerticalOptions="Center" Padding="10" >
+        <!-- centralizando e margem-->
+    
+            <ScrollView >
+                <!-- a imagem não rola junto com o conteúdo da página-->
+
+            <Grid>
+                <!--botões que direcionam para as páginas das matérias-->
+                <Button Grid.Row="5"  Text="SIM" Clicked="Button_Clicked"  BackgroundColor="#AA0000"   />
+                <Button Grid.Row="6"  Text="NÃO" Clicked="Button_Clicked_1" BackgroundColor="#AA0000"/>
+                
+                
+                
+                <Button Grid.Row="11"  Text="Presente!" Clicked="Button_Clicked_2" BackgroundColor="White"/>
+               
+                
+                </Grid>
+
+            </ScrollView>
+
+        </StackLayout>
+
+
+</ContentPage>
